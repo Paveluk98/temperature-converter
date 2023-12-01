@@ -8,7 +8,7 @@ body
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: linear-gradient(to left bottom, lightgreen, lightblue);
+  background: linear-gradient(to left bottom, lightgreen, lightblue, magenta);
   min-height: 100vh;
   display: flex;
   justify-content: center;
