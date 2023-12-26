@@ -1,13 +1,14 @@
-*
+*,
+*:before,
+*:after
 {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body 
 {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   background: linear-gradient(to left bottom, lightgreen, lightblue, magenta);
   min-height: 100vh;
   display: flex;
@@ -20,9 +21,9 @@ body
 .container 
 {
   text-align: center;
-  background: rgba(255,255,255,0.3);
+  background: rgba(255,255,255,0.25);
   padding: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
   border-radius: 10px;
   width: 85%;
   max-width: 450px;
@@ -60,7 +61,7 @@ body
   padding: 5px;
   float: right;
   outline: none;
-  background: rgba(255,255,255,0.3);
+  background: rgba(255,255,255,0.25);
   border-color: rgba(255,255,255,0.5);
   color: darkgreen;
   font-size: 18px;
